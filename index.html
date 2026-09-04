@@ -139,6 +139,57 @@ footer {
         height: 180px;
     }
 }
+    .player-musica {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+
+.capa-musica {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.info-musica h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.info-musica p {
+  margin: 8px 0 18px;
+  opacity: 0.8;
+}
+
+.botao-musica {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 30px;
+  background: #ff4f81;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .player-musica {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .capa-musica {
+    width: 180px;
+    height: 180px;
+  }
+}
 </style>
 </head>
 <body>
